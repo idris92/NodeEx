@@ -83,3 +83,16 @@ const fs = require('fs');
 // readstream.pipeline(writestream)
 //this read from the stream file and write into another file
 
+
+
+//----> Clients and Servers <----
+
+// const http = require('http')
+//after that you create a server --> const server = http.createServer((req, res)=>{
+//console.log('request made')
+//})
+
+
+//--> We need a listener <--
+//server.listen(3000, localhost) //note: localhost is the default and can be removed
+
